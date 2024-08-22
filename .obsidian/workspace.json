@@ -11,15 +11,8 @@
             "id": "da7cce25d85e8acc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -68,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -89,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,13 +135,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "da7cce25d85e8acc",
   "lastOpenFiles": [
-    "2024-08-22.md",
     "Untitled.canvas",
+    "Untitled 1.canvas",
+    "2024-08-22.md",
     "Excalidraw/Drawing 2024-08-22 16.18.35.excalidraw.md",
     "compyui/01.md",
     "compyui_tutorial/tu-22.md",
@@ -182,7 +172,6 @@
     "compyui_tutorial/tu-16.md",
     "compyui_tutorial/tu-17.md",
     "dev/Pasted Image 20240724100026_848.png",
-    "Untitled 1.canvas",
     "Untitled 2.canvas",
     "dev/스크린샷 2024-07-24 오전 9.59.44.png",
     "dev",
