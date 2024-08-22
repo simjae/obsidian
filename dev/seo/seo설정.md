@@ -1,84 +1,124 @@
-# Next.js 14에서 광고 통합 및 SEO 최적화
+Next.js 14 기준으로 SEO 최적화 작업을 위해 다양한 파일과 폴더를 설정하고, 이를 프로젝트에 통합하는 방법을 자세히 설명드리겠습니다. 이 가이드는 `app` 디렉토리 구조를 사용하는 프로젝트를 대상으로 합니다.
 
-## 1. 구글 광고 스크립트 추가
+## 1. **메타 태그 및 SEO 설정**
 
-구글 광고(Google Ads)를 통합하기 위해 컴포넌트를 생성합니다.
+### **폴더 및 파일 생성**
 
-### 폴더 및 파일 구조
+- 폴더 경로: `src/components/SEO`
+- 파일명: `MetaTags.tsx`
 
-- **폴더 경로**: `src/components/Ads`
-- **파일명**: `GoogleAds.tsx`
+### **MetaTags.tsx 파일 내용**
 
-### GoogleAds.tsx 파일 내용
-
-typescript
-
-```typescript
-import React, { useEffect } from 'react';  const GoogleAds: React.FC = () => {   useEffect(() => {     const script = document.createElement('script');     script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";     script.async = true;     script.setAttribute('data-ad-client', 'YOUR_GOOGLE_ADS_CLIENT_ID'); // 구글 광고 클라이언트 ID 추가     document.head.appendChild(script);      return () => {       document.head.removeChild(script);     };   }, []);    return (     <ins       className="adsbygoogle"       style={{ display: 'block' }}       data-ad-client="YOUR_GOOGLE_ADS_CLIENT_ID"       data-ad-slot="YOUR_AD_SLOT"       data-ad-format="auto"       data-full-width-responsive="true"     ></ins>   ); };  export default GoogleAds;
-																						
-
-
-```
-
-```
-
-
-
-### 구글 광고 컴포넌트 사용
-
-typescript
+tsx
 
 코드 복사
 
-`import GoogleAds from '@components/Ads/GoogleAds';  const SomePage = () => {   return (     <>       <main>         {/* 메인 콘텐츠 */}         <GoogleAds />       </main>     </>   ); };  export default SomePage;`
+`import Head from 'next/head';  interface MetaTagsProps {   title: string;   description: string;   keywords?: string;   author?: string;   image?: string;   url?: string; }  const MetaTags: React.FC<MetaTagsProps> = ({   title,   description,   keywords,   author,   image,   url, }) => {   return (     <Head>       <title>{title}</title>       <meta name="description" content={description} />       {keywords && <meta name="keywords" content={keywords} />}       {author && <meta name="author" content={author} />}       <meta property="og:title" content={title} />       <meta property="og:description" content={description} />       {image && <meta property="og:image" content={image} />}       {url && <meta property="og:url" content={url} />}       <meta name="twitter:card" content="summary_large_image" />       <meta name="twitter:title" content={title} />       <meta name="twitter:description" content={description} />       {image && <meta name="twitter:image" content={image} />}       <meta name="viewport" content="width=device-width, initial-scale=1.0" />     </Head>   ); };  export default MetaTags;`
 
-## 2. 다른 광고 플랫폼 추가
+### **사용 방법**
 
-다른 광고 플랫폼(예: Facebook Ads, Amazon Ads)을 추가하려면 비슷한 방식으로 컴포넌트를 만듭니다.
+1. 페이지 컴포넌트에서 `MetaTags` 컴포넌트를 import하여 사용합니다.
 
-### 폴더 및 파일 구조
-
-- **폴더 경로**: `src/components/Ads`
-- **파일명**: `OtherAdPlatform.tsx`
-
-### OtherAdPlatform.tsx 파일 내용
-
-typescript
+tsx
 
 코드 복사
 
-`import React, { useEffect } from 'react';  const OtherAdPlatform: React.FC = () => {   useEffect(() => {     const script = document.createElement('script');     script.src = "URL_TO_OTHER_AD_PLATFORM_SCRIPT";     script.async = true;     document.head.appendChild(script);      return () => {       document.head.removeChild(script);     };   }, []);    return (     <div id="other-ad-platform">       {/* 광고 표시 영역 */}     </div>   ); };  export default OtherAdPlatform;`
+`import MetaTags from '@components/SEO/MetaTags';  const HomePage = () => {   return (     <>       <MetaTags         title="홈페이지 제목"         description="홈페이지 설명"         keywords="비즈 도안, 픽셀 아트, DIY"         author="YourName"         image="https://yoursitename.com/og-image.jpg"         url="https://yoursitename.com"       />       <main>         {/* 메인 콘텐츠 */}       </main>     </>   ); };  export default HomePage;`
 
-## 3. 광고 스크립트 로딩 최적화
+## 2. **Canonical URL 설정**
 
-광고 스크립트를 비동기로 로드하여 페이지 로딩 시간을 최소화합니다. 위 예제에서 `script.async = true;`로 설정한 것은 이 점을 고려한 것입니다.
+### **폴더 및 파일 생성**
 
-## 4. SEO 및 성능 고려 사항
+- 폴더 경로: `src/components/SEO`
+- 파일명: `CanonicalTag.tsx`
 
-1. **Lazy Loading**: 광고 스크립트를 lazy loading하여 초기 페이지 로딩 속도를 개선합니다.
-2. **Critical CSS**: 광고 스크립트가 페이지 스타일에 영향을 미치지 않도록 critical CSS를 사용해 중요한 스타일을 우선적으로 로드합니다.
-3. **광고 위치 최적화**: 광고가 페이지의 중요한 콘텐츠를 가리지 않도록 광고 위치를 신중히 선택합니다.
+### **CanonicalTag.tsx 파일 내용**
 
-## 5. 광고 관련 MetaTags
-
-광고 효과를 극대화하기 위해 MetaTags를 설정할 때 광고와 관련된 키워드 및 설명을 포함할 수 있습니다.
-
-### MetaTags.tsx 파일 수정
-
-typescript
+tsx
 
 코드 복사
 
-`import Head from 'next/head';  interface MetaTagsProps {   title: string;   description: string;   keywords?: string;   author?: string;   image?: string;   url?: string;   adKeywords?: string; // 광고 관련 키워드 추가 }  const MetaTags: React.FC<MetaTagsProps> = ({   title,   description,   keywords,   author,   image,   url,   adKeywords, }) => {   return (     <Head>       <title>{title}</title>       <meta name="description" content={description} />       {keywords && <meta name="keywords" content={keywords} />}       {adKeywords && <meta name="adsense-keywords" content={adKeywords} />} {/* 광고 키워드 */}       {author && <meta name="author" content={author} />}       <meta property="og:title" content={title} />       <meta property="og:description" content={description} />       {image && <meta property="og:image" content={image} />}       {url && <meta property="og:url" content={url} />}       <meta name="twitter:card" content="summary_large_image" />       <meta name="twitter:title" content={title} />       <meta name="twitter:description" content={description} />       {image && <meta name="twitter:image" content={image} />}       <meta name="viewport" content="width=device-width, initial-scale=1.0" />     </Head>   ); };  export default MetaTags;`
+``import Head from 'next/head'; import { useRouter } from 'next/router';  const CanonicalTag = () => {   const router = useRouter();   const canonicalUrl = `https://yoursitename.com${router.asPath}`;    return (     <Head>       <link rel="canonical" href={canonicalUrl} />     </Head>   ); };  export default CanonicalTag;``
 
-## 6. robots.txt 및 Sitemap 업데이트
+### **사용 방법**
 
-광고 스크립트 및 페이지가 검색 엔진에 올바르게 인덱싱되도록 `robots.txt`와 `sitemap.xml`을 업데이트해야 합니다. 광고용 페이지를 `robots.txt`에서 제외할 수도 있습니다.
+1. 각 페이지에서 `CanonicalTag` 컴포넌트를 사용하여 Canonical URL을 설정합니다.
 
-## 7. 광고의 효과 측정
+tsx
 
-광고의 효과를 측정하기 위해 Google Analytics 또는 다른 추적 도구를 사용하여 광고가 있는 페이지의 성과를 분석합니다. 이를 통해 광고 위치, 콘텐츠와의 연관성 등을 최적화할 수 있습니다.
+코드 복사
+
+`import CanonicalTag from '@components/SEO/CanonicalTag';  const SomePage = () => {   return (     <>       <CanonicalTag />       <main>         {/* 페이지 콘텐츠 */}       </main>     </>   ); };  export default SomePage;`
+
+## 3. **Sitemap 설정**
+
+### **프로젝트 루트에 설정**
+
+1. 프로젝트 루트에 `next-sitemap.config.js` 파일을 생성합니다.
+
+### **next-sitemap.config.js 파일 내용**
+
+javascript
+
+코드 복사
+
+`module.exports = {   siteUrl: 'https://yoursitename.com',   generateRobotsTxt: true,   sitemapSize: 7000,   changefreq: 'daily',   priority: 0.7,   exclude: ['/admin/*', '/login'],   alternateRefs: [     {       href: 'https://yoursitename.com',       hreflang: 'ko',     },     {       href: 'https://yoursitename.com/en',       hreflang: 'en',     },   ], };`
+
+### **Sitemap 자동 생성 설정**
+
+1. `package.json`에 다음 스크립트를 추가합니다:
+
+json
+
+코드 복사
+
+`{   "scripts": {     "postbuild": "next-sitemap"   } }`
+
+2. 빌드 시 자동으로 Sitemap이 생성됩니다:
+
+bash
+
+코드 복사
+
+`npm run build`
+
+## 4. **robots.txt 설정**
+
+1. `public/robots.txt` 파일을 생성하여 검색 엔진 크롤러의 접근을 제어합니다.
+
+### **robots.txt 파일 내용**
+
+txt
+
+코드 복사
+
+`User-agent: * Allow: /  Sitemap: https://yoursitename.com/sitemap.xml`
+
+## 5. **구조화된 데이터 설정**
+
+### **폴더 및 파일 생성**
+
+- 폴더 경로: `src/components/SEO`
+- 파일명: `StructuredData.tsx`
+
+### **StructuredData.tsx 파일 내용**
+
+tsx
+
+코드 복사
+
+`import Head from 'next/head';  const StructuredData = () => {   const structuredData = {     "@context": "https://schema.org",     "@type": "WebSite",     "url": "https://yoursitename.com",     "name": "YourSiteName",     "potentialAction": {       "@type": "SearchAction",       "target": "https://yoursitename.com/search?query={search_term_string}",       "query-input": "required name=search_term_string"     }   };    return (     <Head>       <script         type="application/ld+json"         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}       />     </Head>   ); };  export default StructuredData;`
+
+### **사용 방법**
+
+1. 메인 페이지나 관련된 페이지에서 `StructuredData` 컴포넌트를 사용합니다.
+
+tsx
+
+코드 복사
+
+`import StructuredData from '@components/SEO/StructuredData';  const HomePage = () => {   return (     <>       <StructuredData />       <main>         {/* 메인 콘텐츠 */}       </main>     </>   ); };  export default HomePage;`
 
 ---
 
-이 설정들은 구글 광고 및 다른 광고 플랫폼을 Next.js 프로젝트에 효과적으로 통합하고, SEO와 페이지 성능을 최적화하는 방법입니다. 각 컴포넌트를 적절히 만들어 페이지에 삽입하고, 광고 스크립트는 비동기로 로드되도록 설정하여 최상의 사용자 경험을 제공하는 것이 중요합니다.
+이 작업들을 통해 Next.js 14 프로젝트에서 SEO 최적화를 할 수 있습니다. 각 컴포넌트는 SEO 관련 태그를 효율적으로 관리할 수 있게 도와주며, 필요에 따라 다양한 페이지에 쉽게 적용할 수 있습니다. 프로젝트 루트와 `src/components/SEO` 폴더에서 필요한 파일을 생성하고 적절히 import하여 사용하면 됩니다.
