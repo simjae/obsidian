@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "compyui/01.md",
-                "mode": "source",
+                "file": "dev/seo/seo설정.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compyui/01.md",
+                "file": "dev/seo/seo설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "compyui/01.md",
+                "file": "dev/seo/seo설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "compyui/01.md"
+                "file": "dev/seo/seo설정.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,8 +148,15 @@
   },
   "active": "da7cce25d85e8acc",
   "lastOpenFiles": [
-    "2024-08-22.md",
+    "compyui_tutorial/tu-01.md",
+    "compyui_tutorial/tu-02.md",
+    "dev/seo/seo설정.md",
+    "dev/2024-07-05.md",
+    "dev/seo",
+    "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
     "compyui/01.md",
+    "dev/image",
+    "2024-08-22.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Excalidraw/Drawing 2024-08-22 16.18.35.excalidraw.md",
@@ -159,11 +165,9 @@
     "Untitled 3.md",
     "compyui_tutorial",
     "Untitled 2.md",
-    "dev/Pasted Image 20240724094710_569.png",
-    "dev/Pasted Image 20240724094608_563.png",
+    "dev/image/Pasted Image 20240724094710_569.png",
+    "dev/image/Pasted Image 20240724094608_563.png",
     "Untitled 1.md",
-    "compyui_tutorial/tu-01.md",
-    "compyui_tutorial/tu-02.md",
     "compyui_tutorial/tu-03.md",
     "compyui_tutorial/tu-04.md",
     "compyui_tutorial/tu-05.md",
@@ -178,18 +182,16 @@
     "compyui_tutorial/tu-14.md",
     "compyui_tutorial/tu-15.md",
     "compyui_tutorial/tu-16.md",
-    "compyui_tutorial/tu-17.md",
-    "dev/Pasted Image 20240724100026_848.png",
+    "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
-    "dev/스크린샷 2024-07-24 오전 9.59.44.png",
     "dev",
     "compyui",
-    "dev/Pasted Image 20240724095816_807.png",
-    "dev/Pasted Image 20240724095923_830.png",
-    "dev/Pasted Image 20240724095433_718.png",
-    "dev/Pasted Image 20240724095316_699.png",
-    "dev/Pasted Image 20240724095153_661.png",
-    "dev/Pasted Image 20240724095029_622.png",
+    "dev/image/Pasted Image 20240724095816_807.png",
+    "dev/image/Pasted Image 20240724095923_830.png",
+    "dev/image/Pasted Image 20240724095433_718.png",
+    "dev/image/Pasted Image 20240724095316_699.png",
+    "dev/image/Pasted Image 20240724095153_661.png",
+    "dev/image/Pasted Image 20240724095029_622.png",
     "Excalidraw"
   ]
 }
