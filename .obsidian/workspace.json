@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/seo/광고.md",
+                "file": "dev/프로젝트구성/2024-07-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/seo/광고.md",
+                "file": "dev/프로젝트구성/2024-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/seo/광고.md",
+                "file": "dev/프로젝트구성/2024-07-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/seo/광고.md"
+                "file": "dev/프로젝트구성/2024-07-05.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "da7cce25d85e8acc",
   "lastOpenFiles": [
+    "dev/프로젝트구성",
+    "dev/seo/Ads.md",
     "dev/seo/SEO 최적화 및 광고 통합 가이드.md",
-    "dev/seo/광고.md",
     "compyui_tutorial/tu-01.md",
     "compyui_tutorial/tu-02.md",
-    "dev/2024-07-05.md",
+    "dev/프로젝트구성/2024-07-05.md",
     "dev/seo",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
     "compyui/01.md",
@@ -181,7 +182,6 @@
     "compyui_tutorial/tu-12.md",
     "compyui_tutorial/tu-13.md",
     "compyui_tutorial/tu-14.md",
-    "compyui_tutorial/tu-15.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
