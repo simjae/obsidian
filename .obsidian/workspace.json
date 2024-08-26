@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a1e2c8f7e1f37d6a",
+        "id": "ffed888b0d13f041",
         "type": "tabs",
         "children": [
           {
-            "id": "da7cce25d85e8acc",
+            "id": "b4dacd9d95698db1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/프로젝트구성/2024-07-05.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/프로젝트구성/2024-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/프로젝트구성/2024-07-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "dev/프로젝트구성/2024-07-05.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,14 +138,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da7cce25d85e8acc",
+  "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
+    "dev/프로젝트구성/2024-07-05.md",
     "dev/프로젝트구성",
     "dev/seo/Ads.md",
     "dev/seo/SEO 최적화 및 광고 통합 가이드.md",
     "compyui_tutorial/tu-01.md",
     "compyui_tutorial/tu-02.md",
-    "dev/프로젝트구성/2024-07-05.md",
     "dev/seo",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
     "compyui/01.md",
