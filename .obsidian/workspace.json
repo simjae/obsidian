@@ -11,8 +11,12 @@
             "id": "b4dacd9d95698db1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/솔리디티 언어.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled/솔리디티 언어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled/솔리디티 언어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled/솔리디티 언어.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
+    "Untitled/솔리디티 언어.md",
+    "Untitled",
     "dev/프로젝트구성/2024-07-05.md",
     "dev/프로젝트구성",
     "dev/seo/Ads.md",
