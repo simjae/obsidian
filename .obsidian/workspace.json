@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/이더리움.md",
-                "mode": "source",
+                "file": "compyui_tutorial/tu-21.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled/이더리움.md",
+                "file": "compyui_tutorial/tu-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled/이더리움.md",
+                "file": "compyui_tutorial/tu-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled/이더리움.md"
+                "file": "compyui_tutorial/tu-21.md"
               }
             }
           }
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,14 +149,15 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
+    "compyui_tutorial/tu-22.md",
+    "compyui_tutorial/tu-02.md",
+    "compyui_tutorial/tu-01.md",
     "Untitled/이더리움.md",
     "Untitled",
     "dev/프로젝트구성/2024-07-05.md",
     "dev/프로젝트구성",
     "dev/seo/Ads.md",
     "dev/seo/SEO 최적화 및 광고 통합 가이드.md",
-    "compyui_tutorial/tu-01.md",
-    "compyui_tutorial/tu-02.md",
     "dev/seo",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
     "compyui/01.md",
@@ -164,7 +166,6 @@
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Excalidraw/Drawing 2024-08-22 16.18.35.excalidraw.md",
-    "compyui_tutorial/tu-22.md",
     "compyui_tutorial/Untitled.md",
     "Untitled 3.md",
     "compyui_tutorial",
