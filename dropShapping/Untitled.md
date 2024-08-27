@@ -15,4 +15,28 @@ Custom Shopify Stores: [https://dropship.io/store](https://www.youtube.com/redir
 Organic Marketing Guide: [https://docs.google.com/document/d/1y...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTdRcngyV3FWT19FZjhGOG9xaVh4MkZ4YnF1d3xBQ3Jtc0tsN2FvZTRNSXpvbl9CXzdtZWtOa0I4STl5M2kzYXVnZkpGRV9rVXRmVlVLRExfWE9KRDBWYU42TU5NS1F2d05hOEhDWlo4TWJaek9nV2VRV2R3bS1xRndpRDVRbmIzVkZmVDlxNFJHUXZ6OUgtMk1MNA&q=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1yr5b94XsrfScdpgPG97UNF7eiwQXMawaDcDJMFH6Ia0%2Fedit%3Fusp%3Dsharing&v=aWRbrXuC-0I)
 
 
-경재
+경쟁 강도
+위탁으로 파악하고 
+사입 
+판간비가 20%라면 22% 
+
+
+gomi insight
+
+나라별 검색 500이상 
+사업자 1개로 스토어 한개로 
+싱가폴 , 필리핀, 대만 , 브라질, 말레이시아
+
+팔로우를 많이 모아야(단골고객)
+
+프리퍼드 셀러(신뢰 , 고객 )
+
+샵 이쁘게 
+카테고리 
+번들 
+소싱
+
+
+
+김포에 보내면 알아서 물건을 해외로 배송해준다.
+sps 시스템으로 집앞에서 김포로 가져간다.
