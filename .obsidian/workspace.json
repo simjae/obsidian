@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "compyui_tutorial/tu-21.md",
-                "mode": "preview",
+                "file": "dropShapping/Untitled.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "compyui_tutorial/tu-21.md",
+                "file": "dropShapping/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "compyui_tutorial/tu-21.md",
+                "file": "dropShapping/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "compyui_tutorial/tu-21.md"
+                "file": "dropShapping/Untitled.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
+    "compyui_tutorial/tu-21.md",
+    "dropShapping/Untitled.md",
+    "dropShapping",
     "compyui_tutorial/tu-22.md",
     "compyui_tutorial/tu-02.md",
     "compyui_tutorial/tu-01.md",
@@ -183,8 +186,6 @@
     "compyui_tutorial/tu-10.md",
     "compyui_tutorial/tu-11.md",
     "compyui_tutorial/tu-12.md",
-    "compyui_tutorial/tu-13.md",
-    "compyui_tutorial/tu-14.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
