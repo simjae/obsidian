@@ -1,0 +1,1 @@
+px create-medusa-app@latest pluck-store --skip-db

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dropShapping/Untitled.md",
+                "file": "dev/store.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dropShapping/Untitled.md",
+                "file": "dev/store.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dropShapping/Untitled.md",
+                "file": "dev/store.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dropShapping/Untitled.md"
+                "file": "dev/store.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
-    "compyui_tutorial/tu-21.md",
     "dropShapping/Untitled.md",
+    "dev/store.md",
+    "compyui_tutorial/tu-21.md",
     "dropShapping",
     "compyui_tutorial/tu-22.md",
     "compyui_tutorial/tu-02.md",
@@ -185,7 +186,6 @@
     "compyui_tutorial/tu-09.md",
     "compyui_tutorial/tu-10.md",
     "compyui_tutorial/tu-11.md",
-    "compyui_tutorial/tu-12.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
