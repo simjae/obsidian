@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/store.md",
+                "file": "dev/beads/컨포넌트 & 훅 & 스토어.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "6059ff32d071eb4c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/store.md",
+                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev/store.md",
+                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev/store.md"
+                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md"
               }
             }
           }
@@ -146,11 +157,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7581885737d75402",
+  "active": "6059ff32d071eb4c",
   "lastOpenFiles": [
-    "dev/Untitled",
-    "dropShapping/Untitled.md",
+    "dev/beads/컨포넌트 & 훅 & 스토어.md",
+    "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
+    "dev/beads/랜더링 과정.md",
+    "dev/beads/시퀀스 다이어그램.md",
+    "dev/beads/플로우 차트.md",
     "dev/store.md",
+    "dev/beads",
+    "dropShapping/Untitled.md",
     "compyui_tutorial/tu-21.md",
     "dropShapping",
     "compyui_tutorial/tu-22.md",
@@ -181,10 +197,6 @@
     "compyui_tutorial/tu-04.md",
     "compyui_tutorial/tu-05.md",
     "compyui_tutorial/tu-06.md",
-    "compyui_tutorial/tu-07.md",
-    "compyui_tutorial/tu-08.md",
-    "compyui_tutorial/tu-09.md",
-    "compyui_tutorial/tu-10.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
