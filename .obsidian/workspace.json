@@ -23,14 +23,24 @@
             "id": "6059ff32d071eb4c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "be72f0c9c688f618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md"
+                "file": "dev/beads/excalidraw 렌더링 기법.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
+                "file": "dev/beads/excalidraw 렌더링 기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
+                "file": "dev/beads/excalidraw 렌더링 기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md"
+                "file": "dev/beads/excalidraw 렌더링 기법.md"
               }
             }
           }
@@ -157,10 +167,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6059ff32d071eb4c",
+  "active": "be72f0c9c688f618",
   "lastOpenFiles": [
-    "dev/beads/컨포넌트 & 훅 & 스토어.md",
     "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
+    "dev/beads/excalidraw 렌더링 기법.md",
+    "Excalidraw/Drawing 2024-08-29 15.10.48.excalidraw.md",
+    "dev/beads/컨포넌트 & 훅 & 스토어.md",
     "dev/beads/랜더링 과정.md",
     "dev/beads/시퀀스 다이어그램.md",
     "dev/beads/플로우 차트.md",
@@ -195,8 +207,6 @@
     "Untitled 1.md",
     "compyui_tutorial/tu-03.md",
     "compyui_tutorial/tu-04.md",
-    "compyui_tutorial/tu-05.md",
-    "compyui_tutorial/tu-06.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
