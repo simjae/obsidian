@@ -13,48 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/유용한.md",
+                "file": "flutter/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "유용한"
-            }
-          },
-          {
-            "id": "afe1d78d494a4b5d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "6059ff32d071eb4c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "be72f0c9c688f618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev/안드로이드/UI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UI"
+              "title": "Untitled"
             }
           }
         ]
@@ -129,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/유용한.md",
+                "file": "flutter/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 유용한"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -200,8 +164,11 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
-    "dev/프로젝트구성/2024-07-05.md",
+    "flutter/기초 개념.md",
+    "flutter/Untitled.md",
     "ai/유용한.md",
+    "flutter",
+    "dev/프로젝트구성/2024-07-05.md",
     "ai",
     "dropShapping/Untitled.md",
     "dev/beads/시퀀스 다이어그램.md",
@@ -235,14 +202,11 @@
     "Untitled 1.canvas",
     "Excalidraw/Drawing 2024-08-22 16.18.35.excalidraw.md",
     "compyui_tutorial/Untitled.md",
-    "Untitled 3.md",
     "compyui_tutorial",
-    "Untitled 2.md",
     "dev/image/Pasted Image 20240724094710_569.png",
     "dev/image/Pasted Image 20240724094608_563.png",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
-    "dev",
     "dev/image/Pasted Image 20240724095816_807.png",
     "dev/image/Pasted Image 20240724095923_830.png",
     "dev/image/Pasted Image 20240724095433_718.png",
