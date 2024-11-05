@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev/beads/시퀀스 다이어그램.md",
+                "file": "ai/유용한.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "유용한"
+            }
+          },
+          {
+            "id": "afe1d78d494a4b5d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           },
           {
@@ -24,7 +38,9 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -36,7 +52,9 @@
                 "file": "dev/안드로이드/UI.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "UI"
             }
           }
         ]
@@ -59,7 +77,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -74,7 +94,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -82,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -105,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev/beads/시퀀스 다이어그램.md",
+                "file": "ai/유용한.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +137,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 유용한"
             }
           },
           {
@@ -125,7 +151,9 @@
                 "file": "dev/beads/시퀀스 다이어그램.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 시퀀스 다이어그램"
             }
           },
           {
@@ -136,7 +164,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -146,7 +176,9 @@
               "type": "outline",
               "state": {
                 "file": "dev/beads/시퀀스 다이어그램.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 시퀀스 다이어그램"
             }
           }
         ]
@@ -168,20 +200,22 @@
   },
   "active": "b4dacd9d95698db1",
   "lastOpenFiles": [
+    "dev/프로젝트구성/2024-07-05.md",
+    "ai/유용한.md",
+    "ai",
+    "dropShapping/Untitled.md",
+    "dev/beads/시퀀스 다이어그램.md",
     "dev/beads/컨포넌트 & 훅 & 스토어.md",
     "dev/beads/excalidraw 렌더링 기법.md",
     "dev/beads/플로우 차트.md",
-    "dev/프로젝트구성/2024-07-05.md",
     "dev/안드로이드/UI.md",
     "dev/안드로이드/컨포넌트.md",
     "dev/안드로이드",
     "Excalidraw/Drawing 2024-08-29 14.59.53.excalidraw.md",
     "Excalidraw/Drawing 2024-08-29 15.10.48.excalidraw.md",
     "dev/beads/랜더링 과정.md",
-    "dev/beads/시퀀스 다이어그램.md",
     "dev/store.md",
     "dev/beads",
-    "dropShapping/Untitled.md",
     "compyui_tutorial/tu-21.md",
     "dropShapping",
     "compyui_tutorial/tu-22.md",
@@ -206,11 +240,9 @@
     "Untitled 2.md",
     "dev/image/Pasted Image 20240724094710_569.png",
     "dev/image/Pasted Image 20240724094608_563.png",
-    "Untitled 1.md",
     "dev/image/Pasted Image 20240724100026_848.png",
     "Untitled 2.canvas",
     "dev",
-    "compyui",
     "dev/image/Pasted Image 20240724095816_807.png",
     "dev/image/Pasted Image 20240724095923_830.png",
     "dev/image/Pasted Image 20240724095433_718.png",
