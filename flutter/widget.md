@@ -1,0 +1,9 @@
+
+
+```
+final postList ={}
+```
+
+
+listView.builder()
+

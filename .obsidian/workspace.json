@@ -11,17 +11,28 @@
             "id": "b4dacd9d95698db1",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b68d1f5a8c959362",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "flutter/Untitled.md",
+                "file": "flutter/기초 개념.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "기초 개념"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flutter/Untitled.md",
+                "file": "flutter/기초 개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for 기초 개념"
             }
           },
           {
@@ -149,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +174,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4dacd9d95698db1",
+  "active": "b68d1f5a8c959362",
   "lastOpenFiles": [
+    "flutter/위젯/ListView.md",
+    "flutter/위젯/Column Row.md",
     "flutter/기초 개념.md",
-    "flutter/Untitled.md",
+    "flutter/위젯/Text.md",
+    "flutter/위젯/Container.md",
+    "flutter/자주 사용하는 위젯.md",
+    "flutter/위젯",
+    "flutter/widget.md",
     "ai/유용한.md",
     "flutter",
     "dev/프로젝트구성/2024-07-05.md",
@@ -192,17 +210,11 @@
     "Untitled",
     "dev/프로젝트구성",
     "dev/seo/Ads.md",
-    "dev/seo/SEO 최적화 및 광고 통합 가이드.md",
     "dev/seo",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
-    "compyui/01.md",
     "dev/image",
-    "2024-08-22.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Excalidraw/Drawing 2024-08-22 16.18.35.excalidraw.md",
-    "compyui_tutorial/Untitled.md",
-    "compyui_tutorial",
     "dev/image/Pasted Image 20240724094710_569.png",
     "dev/image/Pasted Image 20240724094608_563.png",
     "dev/image/Pasted Image 20240724100026_848.png",
