@@ -56,7 +56,6 @@ ListView(
     Text("Item 3"),
   ],
 )
-
 ```
 
 2. **Horizontal ListView with Scroll Control**
@@ -71,7 +70,6 @@ ListView(
     Container(width: 100, color: Colors.green, child: Center(child: Text("3"))),
   ],
 )
-
 ```
 
 3. **ListView.builder for Large Data**
@@ -85,7 +83,6 @@ ListView.builder(
     );
   },
 )
-
 ```
 
 
@@ -103,7 +100,6 @@ ListView.separated(
     return Divider(color: Colors.grey); // 각 아이템 사이에 구분선 추가
   },
 )
-
 ```
 
 5. **Fixed Height ListView for Optimization**
