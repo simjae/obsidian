@@ -30,9 +30,37 @@
               "icon": "lucide-file",
               "title": "ListView"
             }
+          },
+          {
+            "id": "9a22c2928ca733b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FirebaseConfig.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FirebaseConfig"
+            }
+          },
+          {
+            "id": "e541512e58f27799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react-native/Tanstack/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,11 +202,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b68d1f5a8c959362",
+  "active": "e541512e58f27799",
   "lastOpenFiles": [
+    "react-native/Tanstack/useQuery.md",
+    "react-native/Tanstack/Untitled.md",
+    "react-native/firebase/FirebaseConfig.md",
+    "react-native/Tanstack",
+    "react-native/firebase",
+    "react-native",
+    "flutter/위젯/ListView.md",
     "flutter/위젯/Column Row.md",
     "flutter/위젯/Text.md",
-    "flutter/위젯/ListView.md",
     "flutter/위젯/Container.md",
     "flutter/기초 개념.md",
     "flutter/자주 사용하는 위젯.md",
@@ -205,14 +239,8 @@
     "dropShapping",
     "compyui_tutorial/tu-22.md",
     "compyui_tutorial/tu-02.md",
-    "compyui_tutorial/tu-01.md",
-    "Untitled/이더리움.md",
     "Untitled",
-    "dev/프로젝트구성",
-    "dev/seo/Ads.md",
-    "dev/seo",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
-    "dev/image",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "dev/image/Pasted Image 20240724094710_569.png",
