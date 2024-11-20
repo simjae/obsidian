@@ -1,6 +1,57 @@
 ## React Query의 `useMutation` 훅 사용 가이드
 
 `useMutation` 훅은 서버에 데이터를 보내거나 상태를 변경하는 작업을 비동기로 수행하는 데 매우 유용한 도구입니다. 이 글에서는 `useMutation`의 다양한 파라미터와 반환 값을 이해하고, 어떻게 사용하는지에 대해 자세히 설명하겠습니다.
+```
+const {
+  data,
+  error,
+  isError,
+  isIdle,
+  isPending,
+  isPaused,
+  isSuccess,
+  failureCount,
+  failureReason,
+  mutate,
+  mutateAsync,
+  reset,
+  status,
+  submittedAt,
+  variables,
+} = useMutation(
+  {
+    mutationFn,
+    gcTime,
+    meta,
+    mutationKey,
+    networkMode,
+    onError,
+    onMutate,
+    onSettled,
+    onSuccess,
+    retry,
+    retryDelay,
+    scope,
+    throwOnError,
+  },
+  queryClient,
+)
+
+mutate(variables, {
+  onError,
+  onSettled,
+  onSuccess,
+})
+```
+
+
+### **`useMutation`에서 제공되는 상태**
+
+1. `isIdle`: `status`가 `idle`일 때 `true`.
+2. `isPending`: `status`가 `loading`일 때 `true`.
+3. `isSuccess`: `status`가 `success`일 때 `true`.
+4. `isError`: `status`가 `error`일 때 `true`.
+5. `isPaused`: 네트워크 모드에 따라 요청이 중단된 경우 `true`.
 
 ### `useMutation` 파라미터 설명 (옵션)
 

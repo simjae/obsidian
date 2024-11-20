@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react-native/Tanstack/Untitled.md",
+                "file": "react-native/Tanstack/useMutation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "useMutation"
             }
           }
         ],
@@ -116,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 248.5
   },
   "right": {
     "id": "5bfb7f106aaa4ca8",
@@ -204,8 +204,9 @@
   },
   "active": "e541512e58f27799",
   "lastOpenFiles": [
+    "react-native/Tanstack/Tanstack query 종류.md",
     "react-native/Tanstack/useQuery.md",
-    "react-native/Tanstack/Untitled.md",
+    "react-native/Tanstack/useMutation.md",
     "react-native/firebase/FirebaseConfig.md",
     "react-native/Tanstack",
     "react-native/firebase",
@@ -238,7 +239,6 @@
     "compyui_tutorial/tu-21.md",
     "dropShapping",
     "compyui_tutorial/tu-22.md",
-    "compyui_tutorial/tu-02.md",
     "Untitled",
     "dev/image/스크린샷 2024-07-24 오전 9.59.44.png",
     "Untitled.canvas",

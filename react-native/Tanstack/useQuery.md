@@ -1,7 +1,61 @@
 ## React Query의 `useQuery` 훅 사용 가이드
 
 `useQuery` 훅은 서버에서 데이터를 가져오고, 상태를 관리하는 강력한 도구입니다. 이 글에서는 `useQuery`의 다양한 파라미터와 반환 값을 이해하고, 어떻게 사용하는지에 대해 자세히 설명하겠습니다. 특히 한국어로 설명하면서, 개발자들이 더 쉽게 접근할 수 있도록 하겠습니다.
-
+```
+const {
+  data,
+  dataUpdatedAt,
+  error,
+  errorUpdatedAt,
+  failureCount,
+  failureReason,
+  fetchStatus,
+  isError,
+  isFetched,
+  isFetchedAfterMount,
+  isFetching,
+  isInitialLoading,
+  isLoading,
+  isLoadingError,
+  isPaused,
+  isPending,
+  isPlaceholderData,
+  isRefetchError,
+  isRefetching,
+  isStale,
+  isSuccess,
+  promise,
+  refetch,
+  status,
+} = useQuery(
+  {
+    queryKey,
+    queryFn,
+    gcTime,
+    enabled,
+    networkMode,
+    initialData,
+    initialDataUpdatedAt,
+    meta,
+    notifyOnChangeProps,
+    placeholderData,
+    queryKeyHashFn,
+    refetchInterval,
+    refetchIntervalInBackground,
+    refetchOnMount,
+    refetchOnReconnect,
+    refetchOnWindowFocus,
+    retry,
+    retryOnMount,
+    retryDelay,
+    select,
+    staleTime,
+    structuralSharing,
+    throwOnError,
+  },
+  queryClient,
+)
+```
 ### `useQuery` 파라미터 설명 (옵션)
 
 #### 1. `**queryKey: unknown[]**` (필수)
